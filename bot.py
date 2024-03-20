@@ -16,7 +16,7 @@ client = discord.Client(intents=intents)
 # Evento que se dispara cuando el bot ha terminado de conectarse a Discord
 @client.event
 async def on_ready():
-    print(f'{client.user} has connected to Discord!')
+    print(f'{client.user} has connected to Discords!')
 
 # Evento que se dispara cada vez que se recibe un mensaje en un canal al que el bot tiene acceso
 @client.event
